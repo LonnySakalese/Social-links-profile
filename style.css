@@ -1,0 +1,39 @@
+body {
+    background-color: #141414;
+    text-align: center;
+}
+
+.photo {
+    border-radius: 150px;
+}
+
+.whitetext {
+    color: white;
+}
+
+.location {
+    color: #a6ff00;
+}
+
+.button {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #697377;
+    border-radius: 4px;
+    padding: 10px;
+    display: block;
+}
+
+a:hover {
+    color: #141414;
+    background-color: #a6ff00;
+}
+
+.card {
+    background-color: #1f1f1f;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 8px 4px 12px 0px;
+    width: 20%
+}
