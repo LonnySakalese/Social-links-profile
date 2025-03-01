@@ -1,13 +1,17 @@
 body {
     background-color: #141414;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .photo {
     border-radius: 150px;
 }
 
-.whitetext {
+p, h1 {
     color: white;
 }
 
@@ -19,10 +23,18 @@ body {
     color: white;
     font-weight: bold;
     text-decoration: none;
-    background-color: #697377;
-    border-radius: 4px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 15px;
     padding: 10px;
-    display: block;
+    margin: 10px; 
+    display: grid;
+    grid-template-rows: 10px 10px 10px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 
 a:hover {
@@ -32,8 +44,6 @@ a:hover {
 
 .card {
     background-color: #1f1f1f;
-    padding: 40px;
     border-radius: 10px;
-    box-shadow: 8px 4px 12px 0px;
-    width: 20%
+    width: 45%;
 }
